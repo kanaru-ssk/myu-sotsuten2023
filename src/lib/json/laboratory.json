@@ -1,0 +1,57 @@
+[
+  {
+    "id": "hihara",
+    "name": "日原研究室",
+    "course": "kansei"
+  },
+  {
+    "id": "hiraoka",
+    "name": "平岡研究室",
+    "course": "seikastu"
+  },
+  {
+    "id": "inoue",
+    "name": "井上研究室",
+    "course": "seikastu"
+  },
+  {
+    "id": "itoh",
+    "name": "伊藤研究室",
+    "course": "seikastu"
+  },
+  {
+    "id": "kano",
+    "name": "鹿野研究室",
+    "course": "kansei"
+  },
+  {
+    "id": "kochizawa",
+    "name": "小地沢研究室",
+    "course": "seikastu"
+  },
+  {
+    "id": "makanae",
+    "name": "蒔苗研究室",
+    "course": "kansei"
+  },
+  {
+    "id": "nakata",
+    "name": "中田研究室",
+    "course": "seikastu"
+  },
+  {
+    "id": "suguri",
+    "name": "須栗研究室",
+    "course": "kansei"
+  },
+  {
+    "id": "suzuki",
+    "name": "鈴木研究室",
+    "course": "kansei"
+  },
+  {
+    "id": "toki",
+    "name": "土岐研究室",
+    "course": "seikastu"
+  }
+]
