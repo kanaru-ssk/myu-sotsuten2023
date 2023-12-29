@@ -1,10 +1,10 @@
 <script lang="ts">
-  import "./app.css";
-  import { Exhibitor, Section } from "$lib/components";
+  import "../app.css";
+  import { Canvas, Exhibitor, Section } from "$lib/components";
   export let data;
 </script>
 
-<h1>宮城大学卒業研究・制作展2023</h1>
+<Canvas />
 
 <article class="mx-auto max-w-3xl space-y-14 px-4 md:space-y-20">
   <Section title="Outline" subTitle="開催概要">
