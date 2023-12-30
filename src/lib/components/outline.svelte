@@ -2,7 +2,7 @@
   import Section from "./section.svelte";
 </script>
 
-<Section title="Outline" subTitle="開催概要">
+<Section title="Outline" subTitle="開催概要" id="outline">
   <div class="mb-4 text-xl">
     <p>宮城大学 事業構想学群</p>
     <p>生活環境・感性情報デザインコース</p>

@@ -11,7 +11,7 @@
   }[];
 </script>
 
-<Section title="Event" subTitle="イベント">
+<Section title="Event" subTitle="イベント" id="event">
   {#each lecturers as lecturer}
     <div>{lecturer.name}</div>
   {/each}

@@ -17,7 +17,7 @@
   }[];
 </script>
 
-<Section title="Contents" subTitle="展示研究室">
+<Section title="Contents" subTitle="展示研究室" id="contents">
   {#each contents as course}
     <div>
       <h3 class="text-base md:text-2xl">{course.name}</h3>
