@@ -9,6 +9,10 @@ export default {
       },
       height: { svh: "100svh" },
       minHeight: { svh: "100svh" },
+      colors: {
+        primary: "#0098C6",
+        secondary: "#5EB9D7",
+      },
     },
   },
   plugins: [],

@@ -19,7 +19,7 @@ export const load: PageServerLoad = () => {
     {
       name: "生活環境デザインコース",
       labs: laboratories
-        .filter(({ course }) => course === "seikatu")
+        .filter(({ course }) => course === "seikastu")
         .map((laboratory) => ({
           ...laboratory,
           members: exhibitors.filter(({ lab }) => lab === laboratory.id),

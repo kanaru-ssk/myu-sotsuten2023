@@ -1,3 +1,10 @@
+export { default as Access } from "./access.svelte";
 export { default as Canvas } from "./canvas.svelte";
-export { default as Exhibitor } from "./exhibitor.svelte";
+export { default as Contents } from "./contents.svelte";
+export { default as Event } from "./event.svelte";
+export { default as Footer } from "./footer.svelte";
+export { default as Greeting } from "./greeting.svelte";
+export { default as Header } from "./header.svelte";
+export { default as KeyVisual } from "./key-visual.svelte";
+export { default as Outline } from "./outline.svelte";
 export { default as Section } from "./section.svelte";
