@@ -1,7 +1,8 @@
-<script lang="ts">
+<script>
+  // @ts-nocheck
   import { onMount } from "svelte";
 
-  let canvas: HTMLCanvasElement;
+  let canvas;
 
   onMount(() => {
     const ctx = canvas.getContext("2d");
