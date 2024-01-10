@@ -14,6 +14,11 @@
     alt="タイトル画像"
     class="bg-primary-400/50 absolute right-0 top-24 w-2/3 max-w-2xl bg-secondary/50 p-4 md:px-10 md:py-6"
   />
+  <img
+    src="./graduationexhibition2023.svg"
+    alt="graduation exhibition 2023"
+    class="absolute bottom-0 left-0 w-full px-4 md:hidden"
+  />
 </section>
 <div
   class="from-primary-400 to-primary-100 h-20 bg-gradient-to-b md:h-56"
