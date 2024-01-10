@@ -31,7 +31,7 @@
             <p class="text-xs">{lecturer.belongs}</p>
           </div>
           <img
-            src={`/lecturers/${lecturer.img_name}`}
+            src={`./lecturers/${lecturer.img_name}`}
             alt="講師プロフィール画像"
           />
         </div>

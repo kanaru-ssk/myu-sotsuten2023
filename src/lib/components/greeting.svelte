@@ -16,7 +16,7 @@
   </div>
   <div class="mt-4 flex items-center justify-start space-x-4 md:justify-end">
     <img
-      src="/greeting-teacher-img.png"
+      src="./greeting-teacher-img.png"
       alt="学類長のご尊顔"
       class="h-24 w-24"
     />
