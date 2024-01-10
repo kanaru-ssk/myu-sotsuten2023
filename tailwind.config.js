@@ -4,14 +4,16 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Helvetica", "sans-serif"],
+        kabel: ["neue-kabel"],
+        sans: ["source-han-sans-japanese", "sans-serif"],
         self: ["serif"],
       },
       height: { svh: "100svh" },
       minHeight: { svh: "100svh" },
       colors: {
-        primary: "#0098C6",
-        secondary: "#5EB9D7",
+        "primary-100": "#FFF5EA",
+        "primary-500": "#E26400",
+        "primary-900": "#664B18",
       },
     },
   },

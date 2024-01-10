@@ -9,7 +9,7 @@
   let open = false;
 </script>
 
-<header class="fixed top-0 z-10 h-16 w-full bg-secondary md:h-20">
+<header class="bg-primary-500 fixed top-0 z-10 h-16 w-full md:h-20">
   <input
     type="checkbox"
     class="peer ml-auto block h-16 w-16 appearance-none before:absolute before:right-5 before:top-8 before:block before:h-0.5 before:w-7 before:-translate-y-1 before:bg-white before:duration-500 after:absolute after:right-5 after:top-8 after:block after:h-0.5 after:w-7 after:translate-y-1 after:bg-white after:duration-500 checked:before:translate-y-0 checked:before:rotate-45 checked:after:translate-y-0 checked:after:-rotate-45 md:hidden"
