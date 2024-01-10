@@ -13,13 +13,12 @@
 
 <Section title="Event" subTitle="イベント" id="event">
   <h3 class="my-4 text-2xl font-bold">卒業制作自主レビュー</h3>
-  <p>大学外部からゲスト講師を招き、学生による自主レビューを開催します。</p>
-  <p>場所 | 宮城大学大和キャンパス（卒展会場）</p>
-  <p>日時 | 2022年2月18日(日)???</p>
+  <p class="my-2">
+    大学外部からゲスト講師を招き、学生による自主レビューを開催します。
+  </p>
+  <p>場所 | せんだいメディアテーク（卒展会場）</p>
+  <p>日時 | 2024年2月18日(日)12:00-18:00</p>
   <p>主催 | 宮城大学 事業構想学群 価値創造デザイン学類</p>
-  <p>協力 | 宮城大学 地域連携センター</p>
-  <h3 class="my-4 text-2xl font-bold">タイムテーブル</h3>
-  <p>coming soon ...</p>
   <h3 class="my-4 text-2xl font-bold">講師プロフィール</h3>
   <ul class="grid grid-cols-1 gap-10 md:grid-cols-2">
     {#each lecturers as lecturer}
