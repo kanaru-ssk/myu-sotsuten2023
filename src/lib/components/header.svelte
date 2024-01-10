@@ -17,7 +17,7 @@
   />
 
   <nav
-    class="pointer-events-none -translate-y-1/2 scale-y-0 bg-secondary pb-5 text-right text-lg font-bold text-white duration-500 peer-checked:pointer-events-auto peer-checked:translate-y-0 peer-checked:scale-y-100 md:pointer-events-auto md:h-full md:transform-none md:pb-0 md:pr-5"
+    class="bg-primary-500 pointer-events-none -translate-y-1/2 scale-y-0 pb-5 text-right text-lg font-bold text-white duration-500 peer-checked:pointer-events-auto peer-checked:translate-y-0 peer-checked:scale-y-100 md:pointer-events-auto md:h-full md:transform-none md:pb-0 md:pr-5"
   >
     <ul
       class="flex flex-col md:h-full md:flex-row md:items-center md:justify-end"

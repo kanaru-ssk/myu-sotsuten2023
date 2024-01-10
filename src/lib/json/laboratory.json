@@ -1,28 +1,13 @@
 [
   {
-    "id": "hihara",
-    "name": "日原研究室",
-    "course": "kansei"
-  },
-  {
     "id": "hiraoka",
     "name": "平岡研究室",
     "course": "seikastu"
   },
   {
-    "id": "inoue",
-    "name": "井上研究室",
-    "course": "seikastu"
-  },
-  {
-    "id": "itoh",
+    "id": "ito",
     "name": "伊藤研究室",
     "course": "seikastu"
-  },
-  {
-    "id": "kano",
-    "name": "鹿野研究室",
-    "course": "kansei"
   },
   {
     "id": "kochizawa",
@@ -53,5 +38,20 @@
     "id": "toki",
     "name": "土岐研究室",
     "course": "seikastu"
+  },
+  {
+    "id": "tomobuchi",
+    "name": "友渕研究室",
+    "course": "seikastu"
+  },
+  {
+    "id": "sato",
+    "name": "佐藤研究室",
+    "course": "kansei"
+  },
+  {
+    "id": "usui",
+    "name": "薄井研究室",
+    "course": "kansei"
   }
 ]

@@ -1,5 +1,5 @@
 <footer
-  class="space-y-0.5 bg-primary p-8 text-base text-white md:px-24 md:py-12"
+  class="bg-primary-500 space-y-0.5 p-8 text-base text-white md:px-24 md:py-12"
 >
   <p>卒業研究・制作展事務局</p>
   <p>myu_sotsuten@myu.ac.jp</p>

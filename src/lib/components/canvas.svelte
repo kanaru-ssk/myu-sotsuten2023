@@ -4,27 +4,27 @@
   let canvas;
 
   onMount(() => {
-    const ctx = canvas.getContext("2d");
-    if (!ctx) return;
+    // const ctx = canvas.getContext("2d");
+    // if (!ctx) return;
 
-    const width = canvas.width;
-    const height = canvas.height;
+    // const width = canvas.width;
+    // const height = canvas.height;
 
-    let r = 0;
+    // let r = 0;
 
-    (function loop() {
-      ctx.clearRect(0, 0, width, height);
+    // (function loop() {
+    //   ctx.clearRect(0, 0, width, height);
 
-      r += 0.01;
-      ctx.save();
-      ctx.translate(width / 2, height / 2);
-      ctx.rotate(r);
-      ctx.fillStyle = "#5EB9D7";
-      ctx.fillRect(-200, -200, 400, 400);
-      ctx.restore();
+    //   r += 0.01;
+    //   ctx.save();
+    //   ctx.translate(width / 2, height / 2);
+    //   ctx.rotate(r);
+    //   ctx.fillStyle = "#5EB9D7";
+    //   ctx.fillRect(-200, -200, 400, 400);
+    //   ctx.restore();
 
-      requestAnimationFrame(loop);
-    })();
+    //   requestAnimationFrame(loop);
+    // })();
   });
 </script>
 
