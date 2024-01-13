@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { PUBLIC_BASE_URL } from "$env/static/public";
   import "../app.css";
   import {
     Access,
@@ -13,14 +14,28 @@
   } from "$lib/components";
 
   export let data;
+
+  const title = "宮城大学 2023年度 卒業研究・制作展";
+  const description =
+    "2023年度 宮城大学 事業構想学群 価値創造デザイン学類 卒業研究・制作展 + 宮城大学院 事業構想学研究科 修士 制作展";
 </script>
+
+<svelte:head>
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta property="og:url" content={PUBLIC_BASE_URL} />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content={`${PUBLIC_BASE_URL}/ogp.png`} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+</svelte:head>
 
 <Canvas />
 
 <Header />
 <KeyVisual />
 <div
-  class="from-primary-400 to-primary-100 h-20 bg-gradient-to-b md:h-56"
+  class="h-20 bg-gradient-to-b from-primary-400 to-primary-100 md:h-56"
 ></div>
 <article class="mx-auto my-16 max-w-3xl space-y-14 px-4 md:space-y-20">
   <Outline />
