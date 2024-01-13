@@ -5,6 +5,11 @@
     <link rel="icon" href="%sveltekit.assets%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- prettier-ignore -->
+
+    <!-- JQuery読み込み（） -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
     <script>
       (function(d) {
         let config = {
@@ -15,6 +20,34 @@
         /* prettier-ignore */
         h=d.documentElement,t=setTimeout(()=>{h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=()=>{a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
       })(document);
+
+      // 以下アニメーション用
+      // ロードJS
+      window.onload = function () {
+        const load = document.getElementById('load');
+        setTimeout(() => {
+        load.classList.add('loaded');
+      }, 2300);
+      setTimeout(() => {
+        load.classList.add('load-comp');
+      }, 5300);
+      }
+      // スクロールJS
+      $(window).scroll(function () {
+        let scrollAnimationElm = document.querySelectorAll('.scroll_up, .scroll_left');
+        let scrollAnimationFunc = function () {
+          for (let i = 0; i < scrollAnimationElm.length; i++) {
+            // 要素がフェードインするタイミング
+            let triggerMargin = 100;
+            if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
+              scrollAnimationElm[i].classList.add('on');
+            }
+          }
+        }
+        window.addEventListener('load', scrollAnimationFunc);
+        window.addEventListener('scroll', scrollAnimationFunc);
+      });
+
     </script>
     %sveltekit.head%
   </head>
