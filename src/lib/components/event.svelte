@@ -22,7 +22,7 @@
   <h3 class="my-4 text-2xl font-bold">講師プロフィール</h3>
   <ul class="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-10">
     {#each lecturers as lecturer}
-      <li class="border-primary-500 space-y-4 border-4 bg-white p-4">
+      <li class="space-y-4 border-4 border-primary-500 bg-white p-4">
         <div class="flex justify-between space-x-4">
           <div class="space-y-1">
             <p class="text-xs">{lecturer.roman}</p>

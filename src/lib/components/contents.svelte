@@ -35,7 +35,7 @@
   <p class="mt-7 text-center">
     <a
       href="https://www.myu-design.jp/research/"
-      class="bg-primary-500 inline-block rounded-full px-12 py-2 text-base font-bold text-white md:text-xl"
+      class="inline-block rounded-full bg-primary-500 px-12 py-2 text-base font-bold text-white md:text-xl"
     >
       卒展制作集サイトはこちら
     </a>

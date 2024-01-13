@@ -5,7 +5,7 @@
 </script>
 
 <section>
-  <h2 {id} class="text-primary-500 mb-4 flex flex-col font-kabel font-bold">
+  <h2 {id} class="mb-4 flex flex-col font-kabel font-bold text-primary-500">
     <span class="text-3xl md:text-5xl">{title}</span>
     <span class="text-sm">{subTitle}</span>
   </h2>

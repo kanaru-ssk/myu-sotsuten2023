@@ -22,12 +22,15 @@
 
 <svelte:head>
   <title>{title}</title>
+  <meta property="og:title" content={title} />
   <meta name="description" content={description} />
+  <meta property="og:description" content={description} />
   <meta property="og:url" content={PUBLIC_BASE_URL} />
   <meta property="og:type" content="website" />
   <meta property="og:image" content={`${PUBLIC_BASE_URL}/ogp.png`} />
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="宮城大学 デザインポータル" />
+  <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <Canvas />

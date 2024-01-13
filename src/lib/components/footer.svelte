@@ -1,5 +1,5 @@
 <footer
-  class="bg-primary-500 space-y-0.5 p-8 text-base font-bold text-white md:px-24 md:py-12"
+  class="space-y-0.5 bg-primary-500 p-8 text-base font-bold text-white md:px-24 md:py-12"
 >
   <p>卒業研究・制作展事務局</p>
   <p>
