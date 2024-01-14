@@ -23,7 +23,7 @@
       class="flex flex-col md:mr-10 md:h-full md:flex-row md:items-center md:justify-end"
     >
       {#each items as { href, text }}
-        <li class="relative px-5 py-2 text-white hover:text-primary-500">
+        <li class="relative px-5 py-2 text-white">
           <a
             {href}
             on:click={() => {
