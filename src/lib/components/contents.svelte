@@ -38,7 +38,7 @@
       rel="noopener"
       href="https://www.myu-design.jp/research/"
       class="site-button relative inline-block overflow-hidden rounded-full bg-primary-500 px-12 py-2 text-base font-bold text-white md:text-xl"
-      ><span class="button-text relative z-10"> 卒展制作集サイトはこちら </span>
+      ><span class="relative z-10">卒展制作集サイトはこちら</span>
     </a>
   </p>
 </Section>
