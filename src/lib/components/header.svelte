@@ -23,7 +23,7 @@
       class="flex flex-col md:mr-10 md:h-full md:flex-row md:items-center md:justify-end"
     >
       {#each items as { href, text }}
-        <li class="relative px-5 py-2 text-white">
+        <li class="relative px-5 py-2 text-white hover:text-primary-500">
           <a
             {href}
             on:click={() => {
@@ -40,22 +40,31 @@
 </header>
 
 <style>
-  @media screen and (min-width: 768px) {
-    li::after {
-      transition: all 0.5s;
-      content: "";
-      background-color: #fff;
-      width: 100%;
-      height: 100%;
-      padding: 2px;
-      top: 0;
-      left: 0;
-      transform: translateX(-50%) scaleX(0);
-      position: absolute;
-    }
-
-    li:hover::after {
-      transform: translateX(0%) scaleX(1);
-    }
+  li::after {
+    transition: all 0.5s;
+    content: "";
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    /* transform: translateX(-50%) scaleX(0); */
+    position: absolute;
   }
+
+  li:hover::after {
+    /* transform: translateX(0%) scaleX(1); */
+    opacity: 1;
+  }
+@media screen and (min-width: 768px) {
+    li::after {
+    transform: translateX(-50%) scaleX(0);
+  }
+
+  li:hover::after {
+    transform: translateX(0%) scaleX(1);
+  }
+}
 </style>
