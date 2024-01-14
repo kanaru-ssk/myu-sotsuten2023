@@ -82,40 +82,81 @@
   .tr {
     background-color: #ccd23a;
     position: fixed;
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
   }
   .tr-1 {
     left: calc(50vw + 1px);
-    top: calc(50vh + 1px);
+    top: calc(48vh + 1px);
     transform-origin: 0% 0%;
     animation: ani1 4s infinite linear;
+    clip-path: polygon(0 0, 0% 100%, 100% 0%);
   }
   .tr-2 {
-    left: calc(50vw - 61px);
-    top: calc(50vh + 1px);
+    left: calc(50vw - 81px);
+    top: calc(48vh + 1px);
     transform-origin: 100% 0;
     animation: ani0 4s infinite linear;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%);
   }
   .tr-3 {
-    left: calc(50vw - 61px);
-    top: calc(50vh - 61px);
+    left: calc(50vw - 81px);
+    top: calc(48vh - 81px);
     transform-origin: 100% 0;
     animation: ani2 4s infinite linear;
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
   }
   .tr-4 {
     left: calc(50vw + 1px);
-    top: calc(50vh - 61px);
+    top: calc(48vh - 81px);
     transform-origin: 0 0;
     animation: ani3 4s infinite linear;
     z-index: 99999;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
   }
   .tr-5 {
     left: calc(50vw + 1px);
-    top: calc(50vh - 61px);
+    top: calc(48vh - 81px);
     background-color: #5fc499;
     transform-origin: 0 0;
     animation: ani4 4s infinite linear;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  }
+  @keyframes ani0 {
+    0% {
+      transform: scaleX(100%);
+      background-color: #ccd23a;
+    }
+    9% {
+      transform: scaleX(0%) scaleY(100%);
+      background-color: #9a9e2b;
+    }
+    18% {
+      transform: scaleX(0%) scaleY(0%);
+    }
+    36% {
+      transform: scaleX(100%) scaleY(0%);
+      background-color: #469170;
+    }
+    45% {
+      transform: scaleX(100%) scaleY(100%);
+      background-color: #5fc499;
+    }
+    54% {
+      transform: scaleX(0%) scaleY(100%);
+      background-color: #469170;
+    }
+    63% {
+      transform: scaleX(0%) scaleY(0%);
+    }
+    81% {
+      transform: scaleX(100%) scaleY(0%);
+      background-color: #9a9e2b;
+    }
+    90% {
+      transform: scaleY(100%);
+      background-color: #ccd23a;
+    }
   }
   @keyframes ani1 {
     9% {
@@ -147,42 +188,6 @@
     }
     81% {
       transform: scaleY(0%);
-      background-color: #9a9e2b;
-    }
-    90% {
-      transform: scaleY(100%);
-      background-color: #ccd23a;
-    }
-  }
-  @keyframes ani0 {
-    0% {
-      transform: scaleX(100%);
-      background-color: #ccd23a;
-    }
-    9% {
-      transform: scaleX(0%) scaleY(100%);
-      background-color: #9a9e2b;
-    }
-    18% {
-      transform: scaleX(0%) scaleY(0%);
-    }
-    36% {
-      transform: scaleX(100%) scaleY(0%);
-      background-color: #469170;
-    }
-    45% {
-      transform: scaleX(100%) scaleY(100%);
-      background-color: #5fc499;
-    }
-    54% {
-      transform: scaleX(0%) scaleY(100%);
-      background-color: #469170;
-    }
-    63% {
-      transform: scaleX(0%) scaleY(0%);
-    }
-    81% {
-      transform: scaleX(100%) scaleY(0%);
       background-color: #9a9e2b;
     }
     90% {

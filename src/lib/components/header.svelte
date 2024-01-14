@@ -40,19 +40,36 @@
 </header>
 
 <style>
-  li::after {
-    transition: all 0.5s;
-    content: "";
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transform: translateX(-50%) scaleX(0);
-    position: absolute;
+  nav {
+    background-color: #e26400;
   }
 
-  li:hover::after {
-    transform: translateX(0) scaleX(1);
+  ul {
+    margin-right: 2.5rem;
+  }
+
+
+
+  @media screen and (min-width: 768px) {
+    li::after {
+      transition: all 0.5s;
+      content: "";
+      background-color: #fff;
+      width: 100%;
+      height: 100%;
+      padding: 2px;
+      top: 0;
+      left: 0;
+      transform: translateX(-50%) scaleX(0);
+      position: absolute;
+    }
+
+    li:hover::after {
+      transform: translateX(0%) scaleX(1);
+    }
+
+    li:hover {
+      color: #e26400;
+    }
   }
 </style>
