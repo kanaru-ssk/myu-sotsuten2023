@@ -5,7 +5,7 @@
 </script>
 
 <section>
-  <div class="relate">
+  <div class="relative">
     <div class="scroll_left">
       <h2 {id} class="mb-4 flex flex-col font-kabel font-bold text-primary-500">
         <span class="text-3xl md:text-5xl">{title}</span>

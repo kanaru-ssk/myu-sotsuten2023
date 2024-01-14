@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from "svelte";
   import { PUBLIC_BASE_URL } from "$env/static/public";
   import "../app.css";
   import {
@@ -12,6 +13,26 @@
     KeyVisual,
     Outline,
   } from "$lib/components";
+
+  onMount(() => {
+    const scrollAnimationElm = document.querySelectorAll(
+      ".scroll_up, .scroll_left",
+    );
+    function addClassOnAnimationTriggered() {
+      for (let i = 0; i < scrollAnimationElm.length; i++) {
+        // 要素がフェードインするタイミング
+        const triggerMargin = 100;
+        if (
+          window.innerHeight >
+          scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin
+        ) {
+          scrollAnimationElm[i].classList.add("on");
+        }
+      }
+    }
+    addClassOnAnimationTriggered();
+    window.addEventListener("scroll", addClassOnAnimationTriggered);
+  });
 
   export let data;
 
@@ -33,7 +54,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<Canvas />
+<!-- <Canvas /> -->
 
 <Header />
 <KeyVisual />

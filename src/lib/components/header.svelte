@@ -20,63 +20,40 @@
     class="pointer-events-none -translate-y-1/2 scale-y-0 bg-primary-500 pb-5 text-right text-lg font-bold text-white duration-500 peer-checked:pointer-events-auto peer-checked:translate-y-0 peer-checked:scale-y-100 md:pointer-events-auto md:h-full md:transform-none md:pb-0 md:pr-5"
   >
     <ul
-      class="flex flex-col md:h-full md:flex-row md:items-center md:justify-end"
+      class="flex flex-col md:mr-10 md:h-full md:flex-row md:items-center md:justify-end"
     >
       {#each items as { href, text }}
-        <dev class="relate">
-          <li class="hov_animate mx-5 my-2">
-            <a
-              {href}
-              on:click={() => {
-                open = false;
-              }}
-            >
-              {text}
-            </a>
-          </li>
-        </dev>
+        <li class="relative px-5 py-2 text-white hover:text-primary-500">
+          <a
+            {href}
+            on:click={() => {
+              open = false;
+            }}
+          >
+            {text}
+          </a>
+        </li>
       {/each}
     </ul>
   </nav>
 </header>
 
 <style>
-  header {
-    width: 100vw;
-  }
-  ul {
-    margin-right: 2.5rem;
-  }
-
-  li {
-    color: #fff;
-    z-index: 9;
-  }
-
-  li a {
-    z-index: 9;
-  }
-
   li::after {
     transition: all 0.5s;
     content: "";
     background-color: #fff;
     width: 100%;
     height: 100%;
-    padding: 2px;
     top: 0;
     left: 0;
-    transform: translateX(-120%);
+    transform: translateX(-50%) scaleX(0);
     overflow: hidden;
     position: absolute;
-    z-index: -1;
+    z-index: -10;
   }
 
   li:hover::after {
-    transform: translateX(0%);
-  }
-
-  li:hover {
-    color: #e26400;
+    transform: translateX(0) scaleX(1);
   }
 </style>

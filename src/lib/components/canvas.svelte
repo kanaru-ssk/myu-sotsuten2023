@@ -1,5 +1,21 @@
+<script>
+  import { onMount } from "svelte";
+
+  let loaded = false;
+  let loadComp = false;
+  onMount(() => {
+    const load = document.getElementById("load");
+    setTimeout(() => {
+      loaded = true;
+    }, 2300);
+    setTimeout(() => {
+      loadComp = true;
+    }, 5300);
+  });
+</script>
+
 <!-- ローディングアニメ―ション -->
-<div id="load">
+<div id="load" class:loaded class:loadComp>
   <div class="load-main">
     <div class="tr tr-1"></div>
     <div class="tr tr-2"></div>
@@ -11,43 +27,6 @@
 </div>
 
 <style>
-  /* 共通CSS（Svelteで共通CSSを書くべき場所ってどこですか……？　とりあえずGlobalで全体に効くようには書いてます。） */
-  :global(body) {
-    overflow-x: hidden;
-    width: 100%;
-  }
-  :global(.relate) {
-    position: relative;
-    overflow: hidden;
-  }
-  /* スクロールアニメーションのCSS */
-  /* 下から上へふわっと */
-  :global(.scroll_up) {
-    transition: 0.5s ease-in-out;
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  :global(.scroll_up.on) {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  /* マーカー */
-  :global(.scroll_left::after) {
-    transition: all 0.5s;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #e26400;
-    z-index: 8;
-  }
-  :global(.on.scroll_left::after) {
-    transition: all 0.5s;
-    transform: translateX(-100%);
-  }
-
   /* ローディング　背景 */
   .load-main {
     position: fixed;
@@ -57,10 +36,11 @@
     z-index: 9999;
     transition: all 0.5s;
   }
-  :global(#load.loaded .load-main) {
+  #load.loaded .load-main {
     animation: loaded 3s;
   }
-  :global(#load.load-comp .load-main, #load.load-comp .load-back) {
+  #load.loadComp .load-main,
+  #load.loadComp .load-back {
     opacity: 0;
     visibility: hidden;
     z-index: -999;
@@ -72,7 +52,7 @@
     background-color: #5fc499;
     z-index: 8888;
   }
-  :global(#load.loaded .load-back) {
+  #load.loaded .load-back {
     animation: loadedback 3s;
   }
   @keyframes loaded {
