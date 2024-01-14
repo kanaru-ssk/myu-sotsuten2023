@@ -54,7 +54,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<!-- <Canvas /> -->
+<Canvas />
 
 <Header />
 <KeyVisual />
