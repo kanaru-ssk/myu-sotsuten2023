@@ -17,6 +17,6 @@
   <img
     src="./graduationexhibition2023.svg"
     alt="graduation exhibition 2023"
-    class="absolute bottom-0 left-0 w-full px-4 md:hidden"
+    class="absolute bottom-0 left-0 w-full p-4 md:hidden"
   />
 </section>
