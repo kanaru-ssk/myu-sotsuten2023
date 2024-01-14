@@ -40,14 +40,6 @@
 </header>
 
 <style>
-  nav {
-    background-color: #e26400;
-  }
-
-  ul {
-    margin-right: 2.5rem;
-  }
-
   @media screen and (min-width: 768px) {
     li::after {
       transition: all 0.5s;
@@ -64,10 +56,6 @@
 
     li:hover::after {
       transform: translateX(0%) scaleX(1);
-    }
-
-    li:hover {
-      color: #e26400;
     }
   }
 </style>

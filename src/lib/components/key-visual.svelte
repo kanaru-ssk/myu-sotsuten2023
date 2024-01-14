@@ -1,4 +1,4 @@
-<section class="my-38 relative h-svh">
+<section class="relative h-svh">
   <img
     src="./top-pc.png"
     alt="背景画像"
@@ -12,7 +12,7 @@
   <img
     src="./title.png"
     alt="タイトル画像"
-    class="bg-secondary/50 title-img absolute right-6 top-28 my-6 w-2/3 bg-primary-400/50 p-4 md:px-0 md:py-6"
+    class="bg-secondary/50 title-img absolute right-6 top-28 my-6 w-2/3 bg-primary-400/50 p-4 md:max-w-[40vw] md:px-0 md:py-6"
   />
   <img
     src="./graduationexhibition2023.svg"
@@ -20,16 +20,3 @@
     class="absolute bottom-0 left-0 w-full px-4 py-10 md:hidden"
   />
 </section>
-
-<style>
-  @media screen and (min-width: 1280px) {
-    .title-img {
-      right: 4vw;
-    }
-  }
-  @media screen and (min-width: 980px) {
-    .title-img {
-      max-width: 40vw;
-    }
-  }
-</style>
