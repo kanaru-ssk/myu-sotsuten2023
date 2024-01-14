@@ -12,7 +12,7 @@
   <img
     src="./title.png"
     alt="タイトル画像"
-    class="bg-secondary/50 absolute right-6 title-img top-28 my-6 w-2/3 bg-primary-400/50 p-4 md:px-0 md:py-6"
+    class="bg-secondary/50 title-img absolute right-6 top-28 my-6 w-2/3 bg-primary-400/50 p-4 md:px-0 md:py-6"
   />
   <img
     src="./graduationexhibition2023.svg"

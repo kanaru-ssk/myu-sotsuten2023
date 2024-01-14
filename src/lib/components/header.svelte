@@ -48,8 +48,6 @@
     margin-right: 2.5rem;
   }
 
-
-
   @media screen and (min-width: 768px) {
     li::after {
       transition: all 0.5s;

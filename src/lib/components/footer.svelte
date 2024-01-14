@@ -8,7 +8,11 @@
         >myu_sotsuten@myu.ac.jp</a
       >
     </p>
-    <p><a target="_blank" href="tel:022-377-8332" class="underline">022-377-8332</a></p>
+    <p>
+      <a target="_blank" href="tel:022-377-8332" class="underline"
+        >022-377-8332</a
+      >
+    </p>
     <p>
       <a target="_blank" href="http://myu-design.jp/" class="underline">
         宮城大学デザインポータルHP
