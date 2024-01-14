@@ -34,10 +34,31 @@
   {/each}
   <p class="scroll-up mt-7 text-center">
     <a
+      target="_blank"
       href="https://www.myu-design.jp/research/"
-      class="inline-block rounded-full bg-primary-500 px-12 py-2 text-base font-bold text-white md:text-xl"
-    >
+      class="inline-block rounded-full bg-primary-500 px-12 py-2 text-base font-bold text-white md:text-xl site-button relative overflow-hidden"
+    ><span class="button-text relative z-10">
       卒展制作集サイトはこちら
+      </span>
     </a>
   </p>
 </Section>
+
+<style>
+  .site-button::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    transform: translateX(-50%) scaleX(0);
+    transition: all .5s;
+    background-color: #5fc499;
+    z-index: 9;
+  }
+  .site-button:hover::after{
+    transform: translateX(0%) scaleX(1);
+  }
+
+</style>
