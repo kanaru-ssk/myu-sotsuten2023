@@ -3,7 +3,7 @@
 </script>
 
 <Section title="Outline" subTitle="開催概要" id="outline">
-  <div class="scroll_up">
+  <div class="scroll-up">
     <div class="mb-4 text-xl">
       <p>宮城大学 事業構想学群</p>
       <p>感性情報デザインコース・生活環境デザインコース</p>

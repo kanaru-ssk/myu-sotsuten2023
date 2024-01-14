@@ -18,7 +18,7 @@
 
 <Section title="Contents" subTitle="展示研究室" id="contents">
   {#each contents as course}
-    <div class="scroll_up my-6">
+    <div class="scroll-up my-6">
       <h3 class="text-base font-bold md:text-2xl">{course.name}</h3>
       {#each course.labs as lab}
         <div class="my-4">
@@ -32,7 +32,7 @@
       {/each}
     </div>
   {/each}
-  <p class="scroll_up mt-7 text-center">
+  <p class="scroll-up mt-7 text-center">
     <a
       href="https://www.myu-design.jp/research/"
       class="inline-block rounded-full bg-primary-500 px-12 py-2 text-base font-bold text-white md:text-xl"

@@ -4,18 +4,18 @@
 
 /* スクロールアニメーションのCSS */
 /* 下から上へふわっと */
-.scroll_up {
+.scroll-up {
   transition: 0.5s ease-in-out;
   transform: translateY(30px);
   opacity: 0;
 }
-.scroll_up.on {
+.scroll-up.on {
   transform: translateY(0);
   opacity: 1;
 }
 
 /* マーカー */
-.scroll_left::after {
+.scroll-left::after {
   transition: all 0.5s;
   content: "";
   position: absolute;
@@ -27,7 +27,7 @@
   z-index: 8;
   transform: translateX(0) scaleX(1);
 }
-.on.scroll_left::after {
+.on.scroll-left::after {
   transition: all 0.5s;
   transform: translateX(-50%) scaleX(0);
 }

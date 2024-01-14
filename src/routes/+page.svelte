@@ -16,7 +16,7 @@
 
   onMount(() => {
     const scrollAnimationElm = document.querySelectorAll(
-      ".scroll_up, .scroll_left",
+      ".scroll-up, .scroll-left",
     );
     function addClassOnAnimationTriggered() {
       for (let i = 0; i < scrollAnimationElm.length; i++) {
