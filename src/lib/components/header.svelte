@@ -29,6 +29,7 @@
             on:click={() => {
               open = false;
             }}
+            class="relative z-10"
           >
             {text}
           </a>
@@ -48,9 +49,7 @@
     top: 0;
     left: 0;
     transform: translateX(-50%) scaleX(0);
-    overflow: hidden;
     position: absolute;
-    z-index: -10;
   }
 
   li:hover::after {
