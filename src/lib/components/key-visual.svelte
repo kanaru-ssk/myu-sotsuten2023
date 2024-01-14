@@ -12,7 +12,7 @@
   <img
     src="./title.png"
     alt="タイトル画像"
-    class="bg-secondary/50 absolute right-6 title-img top-28 my-6 w-2/3 max-w-2xl bg-primary-400/50 p-4 md:px-0 md:py-6"
+    class="bg-secondary/50 absolute right-6 title-img top-28 my-6 w-2/3 bg-primary-400/50 p-4 md:px-0 md:py-6"
   />
   <img
     src="./graduationexhibition2023.svg"
@@ -25,6 +25,11 @@
   @media screen and (min-width: 1280px) {
     .title-img {
       right: 4vw;
+    }
+  }
+  @media screen and (min-width: 980px) {
+    .title-img {
+      max-width: 40vw;
     }
   }
 </style>
