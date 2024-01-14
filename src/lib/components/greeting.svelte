@@ -4,7 +4,7 @@
 
 <Section title="Greeting" subTitle="開催にあたって" id="greeting">
   <div class="">
-    <div class="space-y-4 scroll_up">
+    <div class="scroll_up space-y-4">
       <p>
         かつてワルター・グロピウスが「旅する建築家として私の心にまず浮かぶのは、芸術家・建築家・プランナーは、新しい文化に何を貢献しうるかという疑問であった。」と言ったように、デザイナーは新たなモノや価値を生み出す職能として理解されているが、過去の文化を更新してゆくことでしか新しい文化に到達しえないのだとすれば、ここに発表された数々の学生たちの試みはデザインとしての本質を十分に踏まえたものだと言えるのではないだろうか。
       </p>
@@ -15,7 +15,9 @@
         折しも昨年来のコロナ禍で世界はこれまでの価値観では対応できないことが増えている。恐れずむしろ新たな価値観を社会に提案し、その価値を確かめていく勇気と心構えを携えていく彼らの旅の始まりを言祝ぐ機会になればと思う。
       </p>
     </div>
-    <div class="mt-4 flex items-center justify-start space-x-4 md:justify-end scroll_up">
+    <div
+      class="scroll_up mt-4 flex items-center justify-start space-x-4 md:justify-end"
+    >
       <img
         src="./greeting-teacher-img.png"
         alt="学類長のご尊顔"

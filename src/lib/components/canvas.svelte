@@ -120,7 +120,7 @@
     }
   }
   @keyframes loadedback {
-    15%{
+    15% {
       opacity: 1;
     }
     20% {

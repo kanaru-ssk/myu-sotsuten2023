@@ -32,7 +32,7 @@
       {/each}
     </div>
   {/each}
-  <p class="mt-7 text-center scroll_up">
+  <p class="scroll_up mt-7 text-center">
     <a
       href="https://www.myu-design.jp/research/"
       class="inline-block rounded-full bg-primary-500 px-12 py-2 text-base font-bold text-white md:text-xl"
