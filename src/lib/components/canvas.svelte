@@ -4,7 +4,6 @@
   let loaded = false;
   let loadComp = false;
   onMount(() => {
-    const load = document.getElementById("load");
     setTimeout(() => {
       loaded = true;
     }, 2300);
@@ -27,7 +26,7 @@
 </div>
 
 <style>
-  /* ローディング　背景 */
+  /* ローディング背景 */
   .load-main {
     position: fixed;
     height: 100vh;
@@ -79,7 +78,7 @@
     }
   }
 
-  /* ローディング　折り紙アニメーション */
+  /* ローディング折り紙アニメーション */
   .tr {
     background-color: #ccd23a;
     position: fixed;
