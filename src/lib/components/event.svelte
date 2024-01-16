@@ -22,6 +22,7 @@
     <p>主催 | 宮城大学 事業構想学群 価値創造デザイン学類</p>
   </div>
   <h3 class="scroll-up my-4 text-2xl font-bold">講師プロフィール</h3>
+  <p class="scroll-up">近日公開</p>
   <ul class="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-10">
     {#each lecturers as lecturer}
       <li class="scroll-up space-y-4 border-4 border-primary-500 bg-white p-4">
