@@ -15,9 +15,8 @@
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
     <div class="mt-4">
-      <p>卒業研究・制作展事務局</p>
-      <p>宮城大学 大和キャンパス</p>
-      <p>〒981-3298 宮城県黒川郡大和町学苑1番地1</p>
+      <p>せんだいメディアテーク</p>
+      <p>〒980-0821 宮城県仙台市青葉区春日町2-1 1F</p>
     </div>
   </div>
 </Section>
