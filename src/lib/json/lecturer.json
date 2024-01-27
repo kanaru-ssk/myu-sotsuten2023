@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "name": "奈良祐希",
+    "roman": "Yuki Nara",
+    "belongs": "株式会社EARTHEN代表取締役",
+    "position": "建築家・陶芸家",
+    "career": "1989年金沢市生まれ。2013年東京藝術大学美術学部建築科卒業、2016年多治見市陶磁器意匠研究所修了。2017年東京藝術大学大学院美術研究科建築専攻首席卒業。陶芸代表作<Bone Flower>が金沢21世紀美術館等に永久収蔵。主な建築作品として<Node Kanazawa>(2023)、<Cave Toyama>(2023)がある。第33回AACA賞芦原義信新人賞を史上最年少で受賞。",
+    "img_name": "narasama.jpg"
+  },
+  {
+    "name": "秋吉浩気",
+    "roman": "Koki Akiyoshi",
+    "belongs": "VUILD株式会社",
+    "position": "代表取締役CEO・建築家・メタアーキテクト",
+    "career": "2017年に建築テック系スタートアップVUILDを創業し、「建築の民主化」を目指す。デジタルファブリケーションやソーシャルデザインなど、モノからコトまで幅広いデザイン領域をカバーする。主な受賞歴にUnder 35 Architects exhibition Gold Medal賞(2019)、グッドデザイン金賞（2020）、Archi-Neering Design AWARD 最優秀賞（2022）。主な著書に、『メタアーキテクトー次世代のための建築』",
+    "img_name": "akiyoshisama.jpg"
+  },
+  {
+    "name": "伊藤幹",
+    "roman": "Motoki Ito",
+    "belongs": "aat+ヨコミゾマコト建築設計事務所・幹花建築社",
+    "position": "設計主任（ヨコミゾ事務所）・主宰（幹花建築社）",
+    "career": "1988大阪府生まれ。2012東北大学工学部建築・社会環境工学科卒業。同大学院 建築・社会環境工学科進学五十嵐太郎研究室。2013-2014ブリュッセル自由大学ラ・カンブル-オルタ交換留学。2015東北大学大学院工学研究科都市・建築学修士課程修了。2015-有限会社aat+ヨコミゾマコト建築設計事務所所属。2022.7-幹花建築社主宰（今泉絵里花と共同主宰）",
+    "img_name": "itosama.jpg"
+  },
+  {
+    "name": "吉泉聡",
+    "roman": "Satoshi Yoshiizumi",
+    "belongs": "TAKT PROJECT",
+    "position": "TAKT PROJECT代表・デザイナー",
+    "career": "東北大学工学部卒業。nendo、ヤマハを経て、TAKT PROJECTを共同設立。既存の枠組みを揺さぶる実験的な自主研究プロジェクトを行い、国内外の美術館や展覧会で発表・招聘展示。その研究成果を起点に、様々なクライアントと「別の可能性をつくる」多様なプロジェクトを具現化している。2023年 21_21 DESIGN SIGHT企画展「Material, or 」展覧会ディレクターを務める。",
+    "img_name": "yoshiizumisama.jpg"
+  },
+  {
+    "name": "平井未央",
+    "roman": "Mio Hirai",
+    "belongs": "iii architects, KKAA",
+    "position": "建築家",
+    "career": "1995年福井県福井市生まれ。2018年iii architectsとして活動開始。2020年日本女子大学大学院篠原聡子研究室修了。2020年よりKKAAに勤務しながらiii architectsとして家具デザインや建築の設計を行っている",
+    "img_name": "hiraisama.jpg"
+  },
+  {
+    "name": "高砂充希子",
+    "roman": "Mikiko Takasago",
+    "belongs": "Studio Mikix代表",
+    "position": "建築家、アーティスト",
+    "career": "東京藝術大学美術学部建築学科卒業。南カリフォルニア建築大学大学院修了。シカゴ建築展2017のデザイン監修担当。組織設計Woods Bagotニューヨーク支店勤務、WRNS Studioサンフランシスコ支店勤務。",
+    "img_name": "taka.jpg"
+  }
+]
