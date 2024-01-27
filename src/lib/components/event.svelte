@@ -37,7 +37,10 @@
             class="h-32 w-32 object-cover object-center"
           />
         </div>
-        <p class="leading-6">{lecturer.position} {lecturer.career}</p>
+        <div class="leading-6">
+          <p>{lecturer.position}</p>
+          <p>{lecturer.career}</p>
+        </div>
       </li>
     {/each}
   </ul>
